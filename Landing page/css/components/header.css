@@ -1,0 +1,36 @@
+.header {
+	padding: 30px 0;
+}
+.header-top-item {
+	display: inline-block;
+	margin: 0 15px;
+	display: flex;
+}
+.header-top-item .icon-content {
+	margin: 17px 0;
+	margin-right: 10px;
+}
+.search-header-img  {
+	width: 18.36px;
+	margin: 18px 0;
+	margin-right: 38px;
+	vertical-align: middle;
+}
+.header-top {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 35px;
+	flex-wrap: wrap;
+}
+.display {
+		display: block;
+		display: flex;
+		flex-wrap: nowrap;
+	}
+.name {
+}
+@media (max-width: 480px) {
+	.display {
+		display: none;
+	}
+}

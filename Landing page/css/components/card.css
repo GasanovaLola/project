@@ -1,0 +1,158 @@
+.slick-track {
+	height: 100%;
+}
+.sl {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+}
+.card {
+	border-radius: 30px;
+	background-color: #FFF;
+	overflow: hidden;
+	height: 100%;
+}
+.title-card {
+	font-size: 18px;
+	line-height: 20px;
+}
+.description-card {
+	font-size: 16px;
+	line-height: 18px;
+}
+.stars figure {
+	width: 20px;
+	display: inline-block;
+}
+.card-img {
+	border-radius: 30px 30px 0 0;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.text-card {
+	padding: 28px 18px;
+	text-align: left;
+}
+.stars {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 7px;
+}
+.card-span {
+	display: inline-block;
+	vertical-align: top;
+	margin: 3px 0 0;
+	color: #888EA0;
+	font-size: 14px;
+}
+
+.price-card {
+	display: flex;
+	justify-content: space-between;
+	vertical-align: bottom;
+}
+.description-price {
+	color: #888EA0;
+	font-size: 12px;
+}
+.price {
+	font-size: 22px;
+	color: #373F55;
+	font-weight: 550;
+	letter-spacing: 1px;
+}
+.blur-card .card {
+	box-shadow: 0 0 50px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+.center {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+.card-reviews {
+	background-color: #FFF;
+	border-radius: 30px;
+	padding: 22px;
+	text-align: left;
+	height: 100%;
+}
+.card-section-top {
+	display: flex;
+	justify-content: space-between;
+	vertical-align: top;
+	flex-wrap: wrap;
+}
+.card-person {
+	display: flex;
+}
+.img-person {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	margin-right: 22px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.link-a {
+	text-align: right;
+	color: #0F2D47;
+}
+
+
+  .description-card-p {
+  	font-size: 16px;
+  }
+
+@media (min-width: 343px) and (max-width: 493px) {
+  .card-reviews {
+  	padding: 15px;
+  }
+  .img-person {
+  	width: 50px;
+	height: 45px;
+	border-radius: 50px;
+	margin-right: 8px;
+  }
+  .stars {
+  	margin-right: 1px;
+  }
+  .description-card-p {
+  	font-size: 14px;
+  }
+  .sl-slide {
+    padding: 7px !important;
+    height: 100%;
+}
+}
+@media (max-width: 343px) {
+  .card-reviews {
+  	padding: 10px;
+  }
+  .img-person {
+  	width: 50px;
+	height: 50px;
+	border-radius: 45px;
+	margin-right: 8px;
+  }
+  .stars {
+  	margin-right: 1px;
+  }
+  .description-card-p {
+  	font-size: 14px;
+  }
+  .sl-slide {
+    padding: 7px !important;
+    height: 100%;
+}
+}

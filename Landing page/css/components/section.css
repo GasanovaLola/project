@@ -1,0 +1,123 @@
+.section {
+	text-align: center;
+}
+.search {
+	text-align: center;
+}
+.section-search {
+	/*display: flex;
+	justify-content: space-between;*/
+}
+.div-section-form {
+	text-align: left;
+	padding: 0 7px;
+}
+.second-section {
+	background-image: url(../../img/mountains.png);
+	height: 500px;
+}
+.background-color-section {
+	text-align: center;
+	margin: 0;
+    background-color: #F2F7FF;
+}
+.background-section {
+	background-image: none;
+}
+.text-section {
+	color: #464649;
+	text-align: left;
+	line-height: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.text-section p {
+	font-size: 18px;
+	margin: 0 auto;
+	max-width: 700px;
+}
+.div-galary {
+	display: flex;
+	vertical-align: middle;
+}
+.padding-section-top {
+	padding-top: 90px;
+}
+.padding-section {
+	padding: 90px 0;
+}
+.title-section {
+	margin: 0 0 64px 0 ;
+}
+@media (min-width: 960px) {
+	.background-section {
+		background-image: url(../../img/img.png); 
+		height: 888px; background-size: 100%; 
+		background-repeat: no-repeat;
+	}
+	.second-section {
+	display: block;
+}
+}
+@media (min-width: 640px) and (max-width: 1156px) {
+	.text-section p {
+	font-size: 18px;
+	margin-top: 30px;
+	text-align: center;
+}
+.padding-section {
+	padding: 80px 0;
+}
+.second-section {
+	display: none;
+}
+}
+@media (min-width: 1156px) {
+	.text-section p {
+	font-size: 18px;
+	margin-top: 55px;
+}
+.padding-section {
+	padding: 90px 0;
+}
+.second-section {
+	display: block;
+}
+}
+@media (min-width: 495px) and (max-width: 640px) {
+.text-section p {
+	font-size: 18px;
+	max-width: 500px;
+	text-align: center;
+}	
+.padding-section {
+	padding: 60px 0;
+}
+.second-section {
+	display: none;
+}
+}
+@media (min-width: 343px) and (max-width: 493px) {
+  .text-section p {
+    max-width: 450px;
+    text-align: center;
+  }
+  .padding-section {
+	padding: 50px 0;
+}
+.second-section {
+	display: none;
+}
+}
+@media (max-width: 343px) {
+  .text-section p {
+    max-width: 300px;
+    text-align: center;
+  }
+  .padding-section {
+	padding: 40px 0;
+}
+.second-section {
+	display: none;
+}
+}

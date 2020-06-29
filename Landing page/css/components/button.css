@@ -1,0 +1,40 @@
+.button {
+	background-color: #FF0032;
+	color: #FFF;
+	padding: 16px 55px;
+	border: 2px solid #FF0032;
+	border-radius: 75px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.button:hover {
+	background-color: #FFF;
+	color: #FF0032;
+	border: 2px solid #FF0032;
+	border-radius: 75px;
+}
+.margin {
+	margin: 50px 0;
+}
+.padding-button {
+	margin: 38px 0;
+}
+
+@media (min-width: 480px) {
+.button {
+	padding: 16px 55px;
+	font-size: 16px;
+}
+}
+@media (min-width: 640px) {
+  .button {
+	padding: 18px 65px;
+	font-size: 16px;
+}
+}
+@media (min-width: 960px) {
+  .button {
+	padding: 18px 75px;
+	font-size: 16px;
+}
+}

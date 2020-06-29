@@ -1,0 +1,56 @@
+.hero {
+	background-image: url(../../img/simon-migaj-561506-unsplash.png);
+	padding: 185px 0;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: repeat;
+    background-size: 100%;
+}
+.section-hero {
+	text-align: center;
+	max-width: 767px;
+}
+.hero-description {
+    max-width: 616px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+.hero-title {
+	letter-spacing: 2px;
+}
+
+@media (max-width: 343px) {
+    .hero {
+        height: 500px;
+        background-size: cover;
+    }
+}
+@media (min-width: 640px) and (max-width: 1156px) {
+    .hero {
+        height: 600px;
+        background-size: cover;
+    }
+}
+@media (min-width: 1156px) {
+    .hero {
+        height: 650px;
+        background-size: cover;
+    }
+}
+@media (min-width: 495px) and (max-width: 640px) {
+    .hero {
+        height: 550px;
+        background-size: cover;
+    }
+}
+@media (min-width: 343px) and (max-width: 495px) {
+    .hero {
+        height: 500px;
+        background-size: cover;
+    }
+}

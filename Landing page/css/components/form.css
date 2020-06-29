@@ -1,0 +1,83 @@
+.select {
+	width: 100%;
+	border: none;
+	background-color: #F2F7FF;
+	border-radius: 50px;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+.description-search {
+    color: #888EA0;
+    font-size: 14px;
+}
+.input-email {
+	padding: 16px;
+	border: 1px transparent;
+	border-radius: 75px;
+	font-size: 14px;
+	background-color: #F2F7FF;
+	width: 368px;
+	color: #373F55;
+}
+option {
+	background-color: #F2F7FF;
+}
+
+.email-p {
+	font-size: 14px;
+	color: #C4C4C4;
+}
+
+@media (min-width: 320px) {
+.input-email {
+	padding: 16px;
+	font-size: 16px;
+	width: 265px;
+	margin-bottom: 7px;
+}
+.form-footer .button {
+	width: 265px;
+}
+.email-p {
+	text-align: center;
+}
+}
+@media (min-width: 480px) {
+.input-email {
+	padding: 16px;
+	font-size: 16px;
+	width: 250px;
+}
+.form-footer .button {
+	width: 262px;
+}
+.email-p {
+	text-align: center;
+}
+}
+@media (min-width: 640px) {
+  .input-email {
+	padding: 18px;
+	font-size: 16px;
+	width: 368px;
+}
+.form-footer .button {
+	width: 225px;
+}
+.email-p {
+	text-align: center;
+}
+}
+@media (min-width: 960px) {
+  .input-email {
+	padding: 20px;
+	font-size: 16px;
+	width: 368px;
+}
+.form-footer .button {
+	width: 225px;
+}
+.email-p {
+	text-align: left;
+}
+}

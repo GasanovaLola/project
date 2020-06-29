@@ -1,0 +1,116 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: #ffffff;
+    line-height: 18px;
+    color: #061E33;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1140px;
+    padding: 0 25px;
+    margin: 0 auto;
+  }
+  .wrapper {
+    overflow: hidden;
+  }
+  .logo {
+    display: inline-block;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+  }
+  
+  p,
+  ul,
+  ol,
+  figure {
+    margin: 0 0 16px 0;
+  }
+  
+  * + p,
+  * + ul,
+  * + ol * + figure {
+    margin-top: 16px;
+  }
+  .color-light {
+    color: #FFF;
+  }
+  .color-dark {
+    color: #000;
+  }
+  .h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .h3 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  
+  @media (min-width: 480px) {
+  .h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  }
+  @media (min-width: 640px) {
+    .h1 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .h3 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  }
+  @media (min-width: 960px) {
+    .h1 {
+    font-size: 60px;
+    line-height: 65px;
+  }
+  .h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .h3 {
+    font-size: 20px;
+    line-height:25px;
+  }
+  }
+  
+  
+  .color {
+    color: #fff;
+  }
